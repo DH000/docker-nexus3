@@ -9,4 +9,4 @@ ENV NEXUS_HOME /usr/local/nexus3
 VOLUME /usr/local/nexus3/etc
 VOLUME /usr/local/sonatype-work
 EXPOSE 8081
-#CMD ["./usr/local/nexus3/bin/nexus", "start"]
+CMD ["./usr/local/nexus3/bin/nexus", "start"]
